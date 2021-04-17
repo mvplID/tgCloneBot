@@ -3,16 +3,16 @@ import json
 from distutils.util import strtobool as stb
 
 # --------------------------------------
-BOT_TOKEN = ""
-GDRIVE_FOLDER_ID = ""
+BOT_TOKEN = "1745252997:AAGk2jJWUWFvJ2JzXmWb5lueCGyMcSbCRNI"
+GDRIVE_FOLDER_ID = "1LzTKul4oNfL8R4sudxeNO2F6w3Bqtde1"
 # Default folder id.
-OWNER_ID = 123455673
+OWNER_ID = 1109039791
 # Example: OWNER_ID = 619418070
-AUTHORISED_USERS = []
+AUTHORISED_USERS = [1109039791,1336349635]
 # Example: AUTHORISED_USERS = [63055333, 100483029, -1003943959]
 INDEX_URL = ""
 IS_TEAM_DRIVE = True
-USE_SERVICE_ACCOUNTS = True
+USE_SERVICE_ACCOUNTS = False
 THREAD_COUNT = 4 
 # --> THREAD_COUNT: How many parralel transfers of every single clone at the same time
 # ----> eg. I'm running 2 clones, and THREAD_COUNT is set to 4; so each clone will have 4 threads of it's own
